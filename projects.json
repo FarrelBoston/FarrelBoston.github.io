@@ -22,8 +22,8 @@
     "description": "Executed four GTM product releases. Owned customer webinars, product emails, and internal enablement sessions. Created content across help center, social, & web. The first person to pioneer in-app comms in WalkMe's editor — tripling webinar signups.",
     "tags": ["GTM", "Launch", "In-App"],
     "ctas": [
-      { "label": "Watch the launch", "url": "#", "primary": true },
-      { "label": "Read email copy", "url": "#", "primary": false }
+      { "label": "Watch the launch", "url": "https://www.youtube.com/watch?v=JYdNaDOxu_8&t=4s", "primary": true },
+      { "label": "Read email copy", "url": "https://drive.google.com/file/d/10ta3-HEmbzduDdlE7USGX0YXx2X3Tfcn/view", "primary": false }
     ]
   },
   {

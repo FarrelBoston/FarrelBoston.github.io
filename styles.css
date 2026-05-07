@@ -312,7 +312,7 @@ body::before {
 .stats-band {
   position: relative;
   z-index: 1;
-  padding: 48px 40px;
+  padding: 60px 40px;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   background: rgba(255,255,255,0.02);
@@ -320,10 +320,10 @@ body::before {
 .stats-inner {
   max-width: 1100px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 64px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
 }
 .stat-item {
   text-align: center;

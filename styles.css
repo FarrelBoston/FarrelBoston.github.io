@@ -312,7 +312,7 @@ body::before {
 .stats-band {
   position: relative;
   z-index: 1;
-  padding: 48px 40px;
+  padding: 64px 40px 48px;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   background: rgba(255,255,255,0.02);

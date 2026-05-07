@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Product Video Blog",
+    "company": "WalkMe",
+    "tagline": "Engaging video education",
+    "metric": "5th highest converting webpage",
+    "metricShort": "#5 converting page",
+    "description": "Scripted, produced, and owned the video blog end-to-end. Became the 5th highest converting webpage, leveraged by BDRs across the sales cycle.",
+    "tags": ["Content", "Video", "Sales Enablement"],
+    "ctas": [
+      { "label": "See the product vlog", "url": "#", "primary": true }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "GTM Webinars",
+    "company": "WalkMe",
+    "tagline": "Lights, camera, launch.",
+    "metric": "4 GTM releases",
+    "metricShort": "4 GTM releases",
+    "description": "Executed four GTM product releases. Owned customer webinars, product emails, and internal enablement sessions. Created content across help center, social, & web. The first person to pioneer in-app comms in WalkMe's editor — tripling webinar signups.",
+    "tags": ["GTM", "Launch", "In-App"],
+    "ctas": [
+      { "label": "Watch the launch", "url": "#", "primary": true },
+      { "label": "Read email copy", "url": "#", "primary": false }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Customer Case Studies",
+    "company": "WalkMe",
+    "tagline": "One story, multiple formats.",
+    "metric": "15% quarterly growth",
+    "metricShort": "+15% engagement",
+    "description": "Repurposed collateral into LinkedIn carousels, blog content, and internal docs. Drove 15% quarterly growth in engagement across social platforms.",
+    "tags": ["Content Strategy", "Social", "Storytelling"],
+    "ctas": [
+      { "label": "Read the case study", "url": "#", "primary": true }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Product Overview",
+    "company": "Fiverr Pro",
+    "tagline": "Great content that gives reps a story worth telling.",
+    "metric": "Equipped 80+ reps",
+    "metricShort": "80+ reps equipped",
+    "description": "Created a high-impact one-pager. Equipped Business Success Managers with clear, confident messaging to pitch Fiverr Pro's premium offering.",
+    "tags": ["Sales Enablement", "Messaging", "One-Pager"],
+    "ctas": [
+      { "label": "See the product overview", "url": "#", "primary": true }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Onboarding Conversion Funnel",
+    "company": "Fiverr Pro",
+    "tagline": "UX journeys that convert interest into activation.",
+    "metric": "+35% signups",
+    "metricShort": "+35% signups",
+    "description": "Built landing page, 7-email journey, and in-app prompts, driving an increase of +35% signups through a fully integrated onboarding funnel.",
+    "tags": ["Lifecycle", "Onboarding", "CRO"],
+    "ctas": [
+      { "label": "Explore the landing page", "url": "#", "primary": true }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sales Collateral",
+    "company": "Fiverr Pro",
+    "tagline": "Benefit-led messaging for sales reps.",
+    "metric": "Used in 80% of inbound comms",
+    "metricShort": "80% inbound usage",
+    "description": "Communicates Fiverr Pro's value to business teams by connecting tools, features, and testimonials into one cohesive narrative.",
+    "tags": ["Sales Enablement", "Copywriting", "Positioning"],
+    "ctas": [
+      { "label": "See the one pager", "url": "#", "primary": true }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Marketing Excellence Award",
+    "company": "WalkMe",
+    "tagline": "Employer branding at scale.",
+    "metric": "1K+ employee advocates",
+    "metricShort": "1K+ employees",
+    "description": "Led an internal content strategy turning 1,000+ employees into social media storytellers. Executed during WalkMe's IPO launch — one of the highest-visibility moments in company history.",
+    "tags": ["Employer Brand", "Internal Comms", "IPO"],
+    "ctas": [
+      { "label": "Read the post", "url": "#", "primary": true }
+    ]
+  }
+]

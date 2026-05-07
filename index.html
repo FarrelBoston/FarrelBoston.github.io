@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO & Social ── -->
+  <title>Farrel Brest — B2B Product Marketing Manager</title>
+  <meta name="description" content="B2B PMM portfolio. GTM strategy, messaging, and product adoption work across WalkMe and Fiverr Pro." />
+  <meta name="author" content="Farrel Brest" />
+
+  <!-- Open Graph (LinkedIn / Slack previews) -->
+  <meta property="og:title"       content="Farrel Brest — PMM Portfolio" />
+  <meta property="og:description" content="Turning complexity into clarity. GTM strategy, messaging, and product adoption." />
+  <meta property="og:type"        content="website" />
+  <!-- Replace with your live URL after deployment -->
+  <meta property="og:url"         content="https://YOUR-USERNAME.github.io" />
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- ── Favicon (SVG inline — no extra file needed) ── -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232563eb'/><text x='7' y='23' font-size='18' font-family='serif' font-weight='900' fill='white'>F</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAV
+  ══════════════════════════════════════════ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo">Farrel<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <!-- Replace # with your LinkedIn URL -->
+      <li><a href="#" class="nav-cta" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" aria-label="Hero">
+    <!-- Subtle grid lines background decoration -->
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <!-- Eyebrow badge -->
+      <div class="hero-eyebrow" aria-label="Role">
+        B2B Product Marketing Manager
+      </div>
+
+      <!-- Main headline -->
+      <h1 class="hero-title">
+        <span class="line-accent">Turning complexity</span>
+        <span class="line-solid">into clarity</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle">
+        GTM strategy, product messaging, and adoption programs that move pipeline —
+        built across SaaS companies from Series B to post-IPO.
+      </p>
+
+      <!-- Discipline pills -->
+      <div class="hero-pills" aria-label="Specialisms">
+        <span class="pill">GTM Strategy</span>
+        <span class="pill">Messaging &amp; Positioning</span>
+        <span class="pill">Product Adoption</span>
+        <span class="pill">Sales Enablement</span>
+        <span class="pill">Lifecycle Marketing</span>
+      </div>
+
+      <!-- CTAs -->
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">
+          View work
+          <span class="cta-arrow" aria-hidden="true">↓</span>
+        </a>
+        <!-- Replace # with your LinkedIn or email -->
+        <a href="#" class="btn-secondary" target="_blank" rel="noopener">
+          Get in touch
+          <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="scroll-label">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       STATS BAND
+  ══════════════════════════════════════════ -->
+  <section class="stats-band" aria-label="Key metrics">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-number">7<span>+</span></div>
+        <div class="stat-label">Projects shipped</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">35<span>%</span></div>
+        <div class="stat-label">Signup lift</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">80<span>+</span></div>
+        <div class="stat-label">Reps enabled</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">1<span>K+</span></div>
+        <div class="stat-label">Employee advocates</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       WORK / PROJECTS
+  ══════════════════════════════════════════ -->
+  <main id="work" class="section-work" aria-label="Portfolio projects">
+
+    <!-- Section header -->
+    <div class="section-header">
+      <div>
+        <p class="section-label">Selected work</p>
+        <h2 class="section-title">
+          The work that <em>actually</em><br>moved the needle
+        </h2>
+      </div>
+      <span class="section-count" id="project-count">Loading...</span>
+    </div>
+
+    <!-- Filter tabs — populated by JS from tag data -->
+    <div class="filter-tabs" id="filter-tabs" role="group" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <!-- More buttons injected by JS -->
+    </div>
+
+    <!-- Project cards — injected by JS -->
+    <div class="projects-grid" id="projects-grid" aria-live="polite">
+      <!-- Cards rendered here from projects.json -->
+    </div>
+
+  </main>
+
+
+  <!-- ══════════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════════ -->
+  <section id="about" class="section-about" aria-label="About Farrel">
+    <div class="about-inner">
+
+      <div class="about-left">
+        <p class="about-label">About</p>
+        <h2 class="about-title">
+          PMM who builds<br><em>for the whole funnel</em>
+        </h2>
+        <p class="about-body">
+          I'm a B2B Product Marketing Manager with experience across WalkMe and Fiverr Pro — 
+          two very different GTM motions, same obsession with clarity.
+          <br><br>
+          I connect customer insight to messaging to distribution. Whether that's a product 
+          launch webinar, a sales one-pager, or an onboarding email sequence — I care about 
+          the outcome, not just the output.
+        </p>
+      </div>
+
+      <div class="about-right" aria-label="Core skills">
+        <div class="about-skill">
+          <div class="about-skill-name">GTM Strategy &amp; Launch</div>
+          <div class="about-skill-desc">Owned 4 end-to-end product launches across webinars, email, in-app, and social.</div>
+        </div>
+        <div class="about-skill">
+          <div class="about-skill-name">Messaging &amp; Positioning</div>
+          <div class="about-skill-desc">Built narratives that equip reps and convert prospects — from one-pagers to full campaigns.</div>
+        </div>
+        <div class="about-skill">
+          <div class="about-skill-name">Sales Enablement</div>
+          <div class="about-skill-desc">Created collateral used by 80+ reps and BDRs across the full sales cycle.</div>
+        </div>
+        <div class="about-skill">
+          <div class="about-skill-name">Lifecycle &amp; Adoption</div>
+          <div class="about-skill-desc">Designed onboarding funnels and content programs that turn users into advocates.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <p class="footer-name">Farrel<span>.</span></p>
+    <p class="footer-sub">B2B Product Marketing Manager</p>
+    <nav class="footer-links" aria-label="Footer links">
+      <!-- Replace # with real URLs -->
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:your@email.com">Email</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+    </nav>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════
+       JAVASCRIPT
+       Fetches projects.json → renders cards
+       → handles filters → Intersection Observer
+       for scroll-reveal animations
+  ══════════════════════════════════════════ -->
+  <script>
+    /* ── 1. Fetch project data from projects.json ── */
+    async function loadProjects() {
+      try {
+        const res = await fetch('projects.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const projects = await res.json();
+        return projects;
+      } catch (err) {
+        console.error('Could not load projects.json:', err);
+        document.getElementById('projects-grid').innerHTML =
+          '<p style="color: var(--muted); grid-column: 1/-1;">Could not load projects. Make sure projects.json is in the same folder.</p>';
+        return [];
+      }
+    }
+
+    /* ── 2. Build a project card element ── */
+    function buildCard(project) {
+      const card = document.createElement('article');
+      card.className = 'project-card';
+      card.setAttribute('data-tags', JSON.stringify(project.tags || []));
+
+      // Build CTA buttons HTML
+      const ctaHTML = (project.ctas || []).map(cta => {
+        const cls = cta.primary ? 'cta-primary' : 'cta-secondary';
+        return `<a href="${cta.url}" class="${cls}" target="_blank" rel="noopener">
+          ${cta.label}
+          <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>`;
+      }).join('');
+
+      // Build tag pills HTML
+      const tagsHTML = (project.tags || []).map(tag =>
+        `<span class="tag">${tag}</span>`
+      ).join('');
+
+      card.innerHTML = `
+        <!-- Top accent bar (visible on hover) -->
+        <div class="card-metric-bar" aria-hidden="true"></div>
+
+        <!-- Company badge + metric -->
+        <div class="card-top">
+          <span class="card-company">${project.company || ''}</span>
+          <span class="card-metric" aria-label="Impact metric">${project.metricShort || ''}</span>
+        </div>
+
+        <!-- Card body -->
+        <p class="card-tagline">${project.tagline || ''}</p>
+        <h3 class="card-title">${project.title}</h3>
+        <p class="card-description">${project.description}</p>
+
+        <!-- Tags -->
+        <div class="card-tags" aria-label="Project tags">${tagsHTML}</div>
+
+        <!-- CTA buttons -->
+        <div class="card-ctas">${ctaHTML}</div>
+      `;
+
+      return card;
+    }
+
+    /* ── 3. Collect all unique tags across projects ── */
+    function getAllTags(projects) {
+      const tagSet = new Set();
+      projects.forEach(p => (p.tags || []).forEach(t => tagSet.add(t)));
+      return Array.from(tagSet).sort();
+    }
+
+    /* ── 4. Render filter buttons ── */
+    function renderFilters(tags, onFilter) {
+      const container = document.getElementById('filter-tabs');
+
+      // "All" button already in HTML; add per-tag buttons
+      tags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.filter = tag;
+        btn.textContent = tag;
+        btn.addEventListener('click', () => {
+          // Toggle active state
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          onFilter(tag);
+        });
+        container.appendChild(btn);
+      });
+
+      // Wire up "All" button
+      container.querySelector('[data-filter="all"]').addEventListener('click', (e) => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        onFilter('all');
+      });
+    }
+
+    /* ── 5. Filter cards in the grid ── */
+    function filterCards(activeTag) {
+      const cards = document.querySelectorAll('.project-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const tags = JSON.parse(card.dataset.tags || '[]');
+        const show = activeTag === 'all' || tags.includes(activeTag);
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+
+      // Update count label
+      const label = document.getElementById('project-count');
+      if (label) label.textContent = `${visibleCount} project${visibleCount !== 1 ? 's' : ''}`;
+    }
+
+    /* ── 6. Scroll-reveal via IntersectionObserver ── */
+    function initScrollReveal() {
+      // Stats band items
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => entry.target.classList.add('visible'), i * 80);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      document.querySelectorAll('.stat-item').forEach(el => observer.observe(el));
+
+      // Project cards
+      const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            cardObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+
+      document.querySelectorAll('.project-card').forEach(el => cardObserver.observe(el));
+    }
+
+    /* ── 7. Nav shrink on scroll ── */
+    function initNavShrink() {
+      const nav = document.querySelector('.nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 60) {
+          nav.style.padding = '12px 40px';
+          nav.style.borderBottomColor = 'rgba(255,255,255,0.1)';
+        } else {
+          nav.style.padding = '';
+          nav.style.borderBottomColor = '';
+        }
+      }, { passive: true });
+    }
+
+    /* ── MAIN: orchestrate everything ── */
+    (async () => {
+      const projects = await loadProjects();
+      if (!projects.length) return;
+
+      const grid = document.getElementById('projects-grid');
+
+      // Render cards
+      projects.forEach(p => grid.appendChild(buildCard(p)));
+
+      // Update count
+      const countLabel = document.getElementById('project-count');
+      if (countLabel) countLabel.textContent = `${projects.length} projects`;
+
+      // Render filter buttons
+      const tags = getAllTags(projects);
+      renderFilters(tags, filterCards);
+
+      // Start scroll reveal
+      // (small delay so cards are in DOM before observing)
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => initScrollReveal());
+      });
+
+      // Nav shrink
+      initNavShrink();
+    })();
+  </script>
+
+</body>
+</html>

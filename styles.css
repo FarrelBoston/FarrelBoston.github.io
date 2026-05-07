@@ -115,7 +115,7 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 140px 40px 200px;
+  padding: 140px 40px 80px;
   overflow: hidden;
   z-index: 1;
 }

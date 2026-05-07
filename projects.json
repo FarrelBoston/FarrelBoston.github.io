@@ -62,7 +62,7 @@
     "description": "Built landing page, 7-email journey, and in-app prompts, driving an increase of +35% signups through a fully integrated onboarding funnel.",
     "tags": ["Lifecycle", "Onboarding", "CRO"],
     "ctas": [
-      { "label": "Explore the landing page", "url": "#", "primary": true }
+      { "label": "Explore the landing page", "url": "https://www.fiverr.com/cp/pro-freelancers", "primary": true }
     ]
   },
   {

@@ -54,7 +54,7 @@
   },
   {
     "id": 5,
-    "title": "Onboarding Conversion Funnel",
+    "title": "Onboarding Conversion Landing Page",
     "company": "Fiverr Pro",
     "tagline": "UX journeys that convert interest into activation.",
     "metric": "+35% signups",
@@ -75,7 +75,7 @@
     "description": "Communicates Fiverr Pro's value to business teams by connecting tools, features, and testimonials into one cohesive narrative.",
     "tags": ["Sales Enablement", "Copywriting", "Positioning"],
     "ctas": [
-      { "label": "See the one pager", "url": "#", "primary": true }
+      { "label": "See the one pager", "url": "https://drive.google.com/file/d/182S1N17aE3JkGsUXfCqE63l89GDv31wt/view", "primary": true }
     ]
   },
   {
@@ -88,7 +88,7 @@
     "description": "Led an internal content strategy turning 1,000+ employees into social media storytellers. Executed during WalkMe's IPO launch — one of the highest-visibility moments in company history.",
     "tags": ["Employer Brand", "Internal Comms", "IPO"],
     "ctas": [
-      { "label": "Read the post", "url": "#", "primary": true }
+      { "label": "Read the post", "url": "https://www.linkedin.com/feed/update/urn:li:activity:6855849523646885888/", "primary": true }
     ]
   }
 ]

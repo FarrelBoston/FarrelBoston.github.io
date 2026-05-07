@@ -282,22 +282,20 @@ body::before {
 }
 
 .hero-scroll-hint {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 8px;
   opacity: 0;
   animation: fadeIn 1s ease 1.2s forwards;
   z-index: 0;
+  margin-top: 24px;
 }
 .scroll-line {
-  width: 1px;
-  height: 48px;
-  background: linear-gradient(to bottom, transparent, var(--muted));
+  width: 48px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--muted));
   animation: scrollPulse 2s ease-in-out infinite;
 }
 .scroll-label {
@@ -305,7 +303,7 @@ body::before {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
-  writing-mode: vertical-rl;
+  writing-mode: horizontal-tb;
 }
 
 /* ────────────────────────────────────────────
